@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+    <title>Calcauladora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <Section id="calculadora">
+        <div id="tela">0.0</div>
+        <div id="botoes">
+            <table id="tabela">
+                <tr>
+                    <td class="nada"> <button></button> </td>
+                    <td class="nada"> <button></button> </td>
+                    <td class="nada"> <button></button> </td>
+                    <td> <button onclick="add(this.textContent)">c</button> </td>
+                    <td> <button onclick="add(this.textContent)" ><</button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="add(this.textContent)" id="7">7</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="8">8</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="9">9</button> </td>
+                    <td> <button onclick="add(this.textContent)">%</button> </td>
+                    <td> <button onclick="add(this.textContent)">^</button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="add(this.textContent)" id="4">4</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="5">5</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="6">6</button> </td>
+                    <td> <button onclick="add(this.textContent)">√</button> </td>
+                    <td> <button onclick="add(this.textContent)">/</button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="add(this.textContent)" id="1">1</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="2">2</button> </td>
+                    <td> <button onclick="add(this.textContent)" id="3">3</button> </td>
+                    <td> <button onclick="add(this.textContent)">-</button> </td>
+                    <td> <button onclick="add(this.textContent)">*</button> </td>
+                </tr>
+                <tr>
+                    <td> <button onclick="add(this.textContent)">0</button> </td>
+                    <td> <button onclick="add(this.textContent)">%</button> </td>
+                    <td> <button onclick="add(this.textContent)">.</button> </td>
+                    <td> <button onclick="add(this.textContent)">+</button> </td>
+                    <td> <button onclick="add(this.textContent)">=</button> </td>
+                </tr>
+            </table>
+        </div>
+    </Section>
+
+</body>
+
+</html>
